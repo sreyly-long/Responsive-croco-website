@@ -20,6 +20,7 @@
     text-transform: capitalize;
     transition: all .2s linear;
  }
+ 
 
  html{
     font-size: 62.5%;
@@ -51,7 +52,7 @@
    padding: .5rem 3rem;
    clip-path: polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
  }
- .btn{
+ .button{
    margin-top: 1rem;
    display: inline-block;
    padding: 1rem 3rem;
@@ -61,11 +62,16 @@
    color: var(--black);
    cursor: pointer;
  }
-
- .btn:hover{
+ .button:hover{
    background:var(--oring);
    color: #fff;
  }
+ .box a{
+   text-decoration: none;
+ }
+.shopping-cart a{
+   text-decoration: none;
+}
 
  .header{
     position: fixed;
@@ -87,6 +93,7 @@
 .header .navbar a{
     font-size: 1.7rem;
     margin: 0 1rem;
+    text-decoration: none;
     color: var(--black);
  }
 
@@ -275,9 +282,10 @@
    padding-bottom: 10rem;
 }
 
-.home .content{
+.home .content {
    text-align: center;
    width: 60rem;
+   
 }
 
 .home .content h3{
@@ -552,6 +560,7 @@
 
 .footer .box-container .box a{
    display: block;
+   text-decoration: none;
    font-size: 1.5rem;
    color: var(--light-color);
    padding: 1rem 0;
@@ -576,8 +585,9 @@
 .footer .box-container .box .share a{
    height: 4rem;
    width: 4rem;
-   line-height: 4rem;
    border-radius: .5rem;
+   text-decoration: none;
+   margin: 5px;
    font-size: 2rem;
    color: var(--black);
    margin-left: .2rem;

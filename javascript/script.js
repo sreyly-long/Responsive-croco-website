@@ -1,5 +1,5 @@
 let searchForm = document.querySelector('.search-form');
-document.querySelector('#search-btn').onclick = ()=>{
+document.querySelector('#search-button').onclick = ()=>{
     searchForm.classList.toggle('active');
     shoppingCart.classList.remove('active');
     loginForm.classList.remove('active');
@@ -8,7 +8,7 @@ document.querySelector('#search-btn').onclick = ()=>{
 
 
 let shoppingCart = document.querySelector('.shopping-cart');
-document.querySelector('#cart-btn').onclick = ()=>{
+document.querySelector('#cart-button').onclick = ()=>{
     shoppingCart.classList.toggle('active');
     searchForm.classList.remove('active');
     loginForm.classList.remove('active');
@@ -17,7 +17,7 @@ document.querySelector('#cart-btn').onclick = ()=>{
 
 
 let loginForm = document.querySelector('.login-form');
-document.querySelector('#login-btn').onclick = ()=>{
+document.querySelector('#login-button').onclick = ()=>{
     loginForm.classList.toggle('active');
     searchForm.classList.remove('active');
     shoppingCart.classList.remove('active');
@@ -26,7 +26,7 @@ document.querySelector('#login-btn').onclick = ()=>{
 
 
 let navbar = document.querySelector('.navbar');
-document.querySelector('#menu-btn').onclick = () =>{
+document.querySelector('#menu-button').onclick = () =>{
     navbar.classList.toggle('active');
     searchForm.classList.remove('active');
     shoppingCart.classList.remove('active');
